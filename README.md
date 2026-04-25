@@ -58,13 +58,13 @@ git clone git@github.com:Bibek-2024/MavenHelloWorld.git
 ### 2. 🏗️ Execute the Maven Lifecycle
 mvn clean package
 ```
-
+```bash
 ### 3. 🚀 Access the Artifact
 ### Path: webapp/target/webapp.war
-
+```
 ---
 
 ### 💻 Maintained & Architected by
 
 Bibek Kumar Sahu <br> 
-Senior DevOps & Infrastructure Focus
+...
