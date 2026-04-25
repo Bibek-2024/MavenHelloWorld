@@ -27,16 +27,18 @@
 ### 🚀 CI/CD Pipeline Architecture
 To ensure high availability and clean deployments, the project utilizes the following automated shell workflow:
 
+
 ```bash
 # Automated Deployment Script
 sudo rm -rf /var/lib/tomcat10/webapps/ROOT*
 sudo cp webapp/target/webapp.war /var/lib/tomcat10/webapps/ROOT.war
 sudo chown tomcat:tomcat /var/lib/tomcat10/webapps/ROOT.war
 sudo systemctl restart tomcat10
+```
 
 ---
 
-### ⚡ Strategic Milestones
+###  ⚡ Strategic Milestones
 [x] Secure Authentication: Configured SSH-based Git keys for zero-password Jenkins polling.
 
 [x] Namespace Migration: Seamlessly transitioned javax to jakarta for modern server support.
@@ -47,20 +49,20 @@ sudo systemctl restart tomcat10
 
 ---
 
-### 📦 How to Build Locally
+###  📦 How to Build Locally
 Bash
 # 1. Clone the secure repository
 git clone git@github.com:Bibek-2024/MavenHelloWorld.git
 
-# 2. Execute the Maven Lifecycle
+# 2. 🏗️ Execute the Maven Lifecycle
 mvn clean package
 
-# 3. Access the Artifact
+# 3. 🚀 Access the Artifact
 # Path: webapp/target/webapp.war
 
 ---
 
-###  Maintained & Architected by
+### 💻 Maintained & Architected by
 
 Bibek Kumar Sahu
 Senior DevOps & Infrastructure Focus
