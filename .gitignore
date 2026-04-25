@@ -1,0 +1,22 @@
+# Secrets and Sensitive Logs
+terminal_history.txt
+*.key
+*.pem
+*.secret
+
+# Maven Build Artifacts
+target/
+*.war
+*.jar
+*.ear
+
+# IDE Configuration (Keeps the repo clean for others)
+.settings/
+.project
+.classpath
+.factorypath
+.metadata/
+
+# OS Junk
+.DS_Store
+Thumbs.db
