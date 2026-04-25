@@ -50,19 +50,21 @@ sudo systemctl restart tomcat10
 ---
 
 ###  📦 How to Build Locally
-Bash
-# 1. Clone the secure repository
+```bash
+### 1. Clone the secure repository
 git clone git@github.com:Bibek-2024/MavenHelloWorld.git
-
-# 2. 🏗️ Execute the Maven Lifecycle
+```
+```bash
+### 2. 🏗️ Execute the Maven Lifecycle
 mvn clean package
+```
 
-# 3. 🚀 Access the Artifact
-# Path: webapp/target/webapp.war
+### 3. 🚀 Access the Artifact
+### Path: webapp/target/webapp.war
 
 ---
 
 ### 💻 Maintained & Architected by
 
-Bibek Kumar Sahu
+Bibek Kumar Sahu <br> 
 Senior DevOps & Infrastructure Focus
